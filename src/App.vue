@@ -23,4 +23,19 @@ export default {
   color: #2c3e50;
   margin-top: 60px;
 }
+
+@media (prefers-reduced-motion: no-preference) {
+  img {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(360deg);
+  }
+  to {
+    transform: rotate(0deg);
+  }
+}
 </style>
