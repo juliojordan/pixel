@@ -32,10 +32,10 @@ export default {
 
 @keyframes App-logo-spin {
   from {
-    transform: rotate(360deg);
+    transform: rotate(0deg);
   }
   to {
-    transform: rotate(0deg);
+    transform: rotate(360deg);
   }
 }
 </style>
